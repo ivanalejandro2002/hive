@@ -27,7 +27,7 @@ function initialize(gamesize){
 
   rows = cols = gamesize;
   game = new Grido(gamesize);
-  game.assign(new Cell(1,1,1,"B"),10,5);
+  game.assign(new Cell(1,1,1,"B"),9,4);
   game.assign(new Cell(1,0,1,"B"),8,5);
 
   game.assign(new Cell(1,1,1,"Q"),5,5);
@@ -41,6 +41,15 @@ function initialize(gamesize){
 
   game.assign(new Cell(1,1,1,"A"),8,6);
   game.assign(new Cell(1,0,1,"A"),8,11);
+  
+  game.assign(new Cell(1,1,1,"M"),9,6);
+  game.assign(new Cell(1,0,1,"M"),9,10);
+
+  game.assign(new Cell(1,1,1,"L"),8,7);
+  game.assign(new Cell(1,0,1,"L"),8,10);
+
+  game.assign(new Cell(1,1,1,"P"),8,8);
+  game.assign(new Cell(1,0,1,"P"),8,9);
   //game.erase(10,5);
 }
 
