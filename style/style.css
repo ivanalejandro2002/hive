@@ -1,12 +1,47 @@
 .box{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     margin: 4px;
-    display:inline-block;
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    justify-content: center;
 }
 
 .red{background-color:red}
 .blue{background-color:blue}
 .green{background-color:green}
 .yellow{background-color:yellow}
+
+#A{background-color: #ac853b;text-decoration-color: #ac853b}
+#Q{background-color: #3d56e9;text-decoration-color: #3d56e9}
+#B{background-color: #8e9748;text-decoration-color: #8e9748}
+#G{background-color: #843db6;text-decoration-color: #843db6}
+#L{background-color: #10d5d0;text-decoration-color: #10d5d0}
+#M{background-color: #8A8A8A;text-decoration-color: #8A8A8A}
+#P{background-color: #cd6a5d;text-decoration-color: #cd6a5d}
+#S{background-color: #188eeb;text-decoration-color: #188eeb}
+#T{background-color: #f1f2f9;text-decoration-color: #0a122a}
+
+.fondoFichas{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    background-color: #acc572;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    height: 60%;
+    max-width: 80%;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+}
+
+div p{
+    margin-top: 75%;
+}
